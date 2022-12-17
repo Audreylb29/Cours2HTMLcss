@@ -1,0 +1,20 @@
+h1 {color: rgb(255, 251, 251);text-align:center; text-transform: uppercase; border-color: rgb(39, 17, 78); border: solid 20px;}
+h3 { color: rgb(39, 17, 78); text-align: center;}
+h2 {color: rgb(73, 29, 40); text-transform:uppercase;text-align: center}
+h4{text-align: left;}
+
+.parent {
+    display: grid;
+    grid-template-areas:
+    "titre titre titre"
+    "photo photo photo"
+    "info info contact"
+    "adresse adresse contact";
+    grid-template-columns: 10px 500px 300px;
+    grid-template-rows: 160px 100px 100px 150px;}
+
+.one{grid-area: titre;}
+.two {grid-area: photo;}
+.three {grid-area: info;}
+.four {grid-area: adresse;}
+.five {grid-area: contact;}
